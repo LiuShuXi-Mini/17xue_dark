@@ -1,0 +1,179 @@
+body{
+    background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1599987436127&di=7663b3485ae4f96cdf355122e85d1242&imgtype=0&src=http%3A%2F%2Fattachments.gfan.com%2Fforum%2Fattachments2%2Fday_120819%2F12081912519c9e412bfe5e33c6.jpg");
+    background-size: cover;
+}
+.xue-common-footer,.wx-box,.panel-item,.logo_img{
+    display: none;
+}
+
+.dropdown-box,.sub-menu{
+    animation: up 0.5s;
+    -webkit-animation: up 0.5s;
+}
+.Layout-menu a:hover,.CD-course:hover{
+    animation: covl 0.5s;
+    -webkit-animation: covl 0.5s;
+    transform: translateX(-10%);
+    -webkit-transform: translateX(-10%);
+}
+.xue-school-nav-wrapper{
+    transform: translateY(-90%);
+    -webkit-transform: translateY(-90%);
+    box-shadow: 0px 0px 8px black;
+}
+.xue-school-nav-wrapper:hover,.Side{
+    animation: covd 0.5s;
+    -webkit-animation: covd 0.5s;
+    transform: translateY(0%);
+    -webkit-transform: translateY(0%);
+}
+.Course-course:hover,.materials:hover,.bk-item:hover,.part:hover,.Schedule-course:hover,.course-box:hover,.Message-item:hover{
+    animation: covl 0.5s;
+    -webkit-animation: covl 0.5s;
+    transform: translateX(-10%);
+    -webkit-transform: translateX(-10%);
+}
+.auth_entrance{
+    animation: covd 1s;
+    -webkit-animation: covd 1s;
+}
+.Layout-right *,.text-container,.chat-logo,.answer-img,.msg-toast,.chat-count,.courseFilter,.opertion-area,.classworkForg,.triangle,.part.courseFilter-item,.Message-head,.Course-course-list,.Course-course-empty,.Course-course-list{
+    animation: toleft 1s;
+    -webkit-animation: toleft 1s;
+}
+.text-container{
+    background: linear-gradient(to right,rgba(251, 255, 0, 0.8),rgba(0, 204, 255, 0.8));
+    border-radius: 5px;
+    padding: 2px;
+    margin: 5px;
+}
+.route-link:hover,.workButton:hover,.multiple-link:hover{
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+}
+.code:hover,.Course-filters-item:hover{
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+.chat-count{
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+.materials{
+    background: rgb(255, 255, 255);
+}
+.Layout-menu,.Side,.Layout-right,.Course-filters{
+    background: rgba(255, 255, 255, 0.9);
+
+}
+.dateTable,.Course-filters{
+    border-radius: 5px;
+    padding: 5px 0px 5px 0px;
+}
+.Layout-menu,.Side,.Layout-right,.Course-filters,.thumbnail,.part,.xue-school-nav-wrapper,.materials,.Side,.dateTable-body,.dateTable-days,.mark-list__container,.Layout-menu{
+    border-radius: 8px;
+    border-style: solid;
+    border-color: rgba(238, 255, 0, 0.6);
+    border-width: 3px;
+    animation: color_b 1s linear infinite;
+    -webkit-animation: color_b 2s infinite;
+}
+@keyframes color_b{
+    1%{
+        border-color: rgba(238, 255, 0, 0.6);
+    }
+    50%{
+        border-color: rgba(255, 0, 221, 0.6);
+    }
+    100%{
+        border-color: rgba(238, 255, 0, 0.6);
+    }
+}
+@-webkit-keyframes color_b{
+    from{
+        border-color: rgba(238, 255, 0, 0.6);
+    }
+    to{
+        border-color: rgba(255, 0, 221, 0.6);
+    }
+}
+@keyframes up{
+    from{
+        transform: translateY(-100%);
+        -webkit-transform: translateY(-100%);
+    }
+    to{
+        transform: translateY(0%);
+        -webkit-transform: translateY(0%);
+    }
+}
+@-webkit-keyframes up{
+    from{
+        transform: translateY(-100%);
+        -webkit-transform: translateY(-100%);
+    }
+    to{
+        transform: translateY(0%);
+        -webkit-transform: translateY(0%);
+    }
+}
+@keyframes covl{
+    from{
+        transform: translateX(0%);
+        -webkit-transform: translateX(0%);
+    }
+    to{
+        transform: translateX(-10%);
+        -webkit-transform: translateX(-10%);
+    }
+}
+@-webkit-keyframes covl{
+    from{
+        transform: translateX(0%);
+        -webkit-transform: translateX(0%);
+    }
+    to{
+        transform: translateX(-10%);
+        -webkit-transform: translateX(-10%);
+    }
+}
+@keyframes covd{
+    from{
+        transform: translateY(-90%);
+        -webkit-transform: translateY(-90%);
+    }
+    to{
+        transform: translateY(0%);
+        -webkit-transform: translateY(0%);
+    }
+}
+@-webkit-keyframes covd{
+    from{
+        transform: translateY(-90%);
+        -webkit-transform: translateY(-90%);
+    }
+    to{
+        transform: translateY(0%);
+        -webkit-transform: translateY(0%);
+    }
+}
+@keyframes toleft{
+    from{
+        transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+    }
+    to{
+        transform: translateX(0%);
+        -webkit-transform: translateX(0%);
+    }
+}
+@-webkit-keyframes toleft{
+    from{
+        transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+    }
+    to{
+        transform: translateX(0%);
+        -webkit-transform: translateX(0%);
+    }
+}
